@@ -1,0 +1,49 @@
+# dependencies
+node_modules/
+.pnp/
+.pnp.js
+pnpm-lock.yaml
+
+# testing
+coverage/
+test-output/
+
+# production build
+build/
+dist/
+
+# misc
+.DS_Store
+Thumbs.db
+*.pem
+
+# debug files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# local environment files
+.env
+.env.*
+.env*.local
+
+# Typescript
+*.tsbuildinfo
+
+# Editor settings
+.idea/
+.vscode/
+*.sublime-workspace
+
+# Linting and formatting outputs
+eslintcache
+.prettierrc.cache
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Generated files
+*.json.lock
